@@ -4,10 +4,10 @@
 logo: "/images/logo.jpg"
 title: ""
 description: ""
-adresse: "12 rue de l'Exemple, 75011 Paris"
-email: "contact@exemple.com"
-instagram: "nomdelagalerie"        # sans le @
-horaires: "Ouvert sur rendez-vous"
+adresse: "83 avenue Alfred Borriglione, Nice, France 06100"
+# email: "contact@exemple.com"
+instagram: "opera__pipo"        # sans le @
+# horaires: "Ouvert sur rendez-vous"
 
 # Si le site est à l'adresse https://pseudo.github.io/nom-du-depot/
 # mets baseurl: "/nom-du-depot". Sinon (nom de domaine perso ou
