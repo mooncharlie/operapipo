@@ -9,7 +9,13 @@
 </head>
 <body>
   <header class="entete">
-    <a class="nom" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+    <a class="nom" href="{{ '/' | relative_url }}">
+      {%- if site.logo and site.logo != "" -%}
+        <img class="logo" src="{{ site.logo | relative_url }}" alt="{{ site.title }}">
+      {%- else -%}
+        {{ site.title }}
+      {%- endif -%}
+    </a>
   </header>
 
   <main>
