@@ -1,0 +1,29 @@
+# ─────────────────────────────────────────────
+#  Réglages du site — modifie les valeurs entre guillemets
+# ─────────────────────────────────────────────
+title: "Nom de la galerie"
+description: "Espace d'exposition temporaire"
+adresse: "12 rue de l'Exemple, 75011 Paris"
+email: "contact@exemple.com"
+instagram: "nomdelagalerie"        # sans le @
+horaires: "Ouvert sur rendez-vous"
+
+# Si le site est à l'adresse https://pseudo.github.io/nom-du-depot/
+# mets baseurl: "/nom-du-depot". Sinon (nom de domaine perso ou
+# dépôt pseudo.github.io), laisse vide.
+baseurl: "/operapipo"
+
+# ── Ne pas toucher en dessous ────────────────
+lang: fr
+collections:
+  expos:
+    output: true
+    permalink: /:name/
+defaults:
+  - scope:
+      path: ""
+      type: expos
+    values:
+      layout: expo
+mois: [janvier, février, mars, avril, mai, juin, juillet, août, septembre, octobre, novembre, décembre]
+exclude: [README.md, GUIDE.md]

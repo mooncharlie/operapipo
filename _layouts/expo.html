@@ -1,0 +1,24 @@
+---
+layout: default
+---
+<article class="fiche">
+  <h1>
+    <span class="artiste">{{ page.artiste }}</span>
+    <em class="titre">{{ page.titre }}</em>
+  </h1>
+  <p class="dates">{% include dates.html debut=page.debut fin=page.fin %}</p>
+
+  <div class="texte">
+    {{ content }}
+  </div>
+
+  {% if page.images %}
+  <div class="images">
+    {% for img in page.images %}
+    <img src="{{ img | relative_url }}" alt="{{ page.titre }}, {{ page.artiste }}" loading="lazy">
+    {% endfor %}
+  </div>
+  {% endif %}
+
+  <p class="retour"><a href="{{ '/' | relative_url }}">Toutes les expositions</a></p>
+</article>

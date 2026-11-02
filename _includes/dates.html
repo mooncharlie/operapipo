@@ -1,0 +1,7 @@
+{%- assign dj = include.debut | date: "%-d" -%}
+{%- assign dm = include.debut | date: "%-m" | minus: 1 -%}
+{%- assign da = include.debut | date: "%Y" -%}
+{%- assign fj = include.fin | date: "%-d" -%}
+{%- assign fm = include.fin | date: "%-m" | minus: 1 -%}
+{%- assign fa = include.fin | date: "%Y" -%}
+{{ dj }} {{ site.mois[dm] }}{% if da != fa %} {{ da }}{% endif %} – {{ fj }} {{ site.mois[fm] }} {{ fa }}

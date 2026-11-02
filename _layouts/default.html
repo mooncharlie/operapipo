@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="{{ site.lang }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.titre %}{{ page.titre }}, {{ page.artiste }} | {% endif %}{{ site.title }}</title>
+  <meta name="description" content="{% if page.titre %}{{ page.artiste }}, {{ page.titre }}{% else %}{{ site.description }}{% endif %}">
+  <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
+</head>
+<body>
+  <header class="entete">
+    <a class="nom" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+  </header>
+
+  <main>
+    {{ content }}
+  </main>
+
+  <footer class="pied">
+    <p class="coordonnees">
+      <span>{{ site.adresse }}</span>
+      <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+      <a href="https://www.instagram.com/{{ site.instagram }}">@{{ site.instagram }}</a>
+    </p>
+    <p>{{ site.horaires }}</p>
+  </footer>
+</body>
+</html>

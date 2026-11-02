@@ -1,0 +1,37 @@
+# Configuration de Pages CMS (https://pagescms.org)
+# Donne un formulaire simple pour ajouter et modifier les expositions.
+media:
+  input: images
+  output: /images
+content:
+  - name: expos
+    label: Expositions
+    type: collection
+    path: _expos
+    view:
+      fields: [titre, artiste, debut]
+      primary: titre
+    fields:
+      - name: artiste
+        label: Artiste(s)
+        type: string
+        required: true
+      - name: titre
+        label: Titre de l'exposition
+        type: string
+        required: true
+      - name: debut
+        label: Date de début
+        type: date
+        required: true
+      - name: fin
+        label: Date de fin
+        type: date
+        required: true
+      - name: images
+        label: Photos
+        type: image
+        list: true
+      - name: body
+        label: Texte de présentation
+        type: rich-text

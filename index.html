@@ -1,0 +1,38 @@
+---
+layout: default
+---
+{% assign expos = site.expos | sort: "debut" | reverse %}
+
+<section id="en-cours" class="groupe" hidden>
+  <h2>En cours</h2>
+  <div class="liste"></div>
+</section>
+
+<section id="a-venir" class="groupe" hidden>
+  <h2>À venir</h2>
+  <div class="liste"></div>
+</section>
+
+<section id="passees" class="groupe" hidden>
+  <h2>Passées</h2>
+  <div class="liste"></div>
+</section>
+
+{% comment %}
+  Toutes les expos sont listées ici. Le script assets/tri.js les range
+  dans « En cours », « À venir » ou « Passées » selon la date du jour.
+  Sans JavaScript, cette liste complète reste visible.
+{% endcomment %}
+<div id="toutes" class="liste">
+  {% for expo in expos %}
+  <a class="expo" href="{{ expo.url | relative_url }}"
+     data-debut="{{ expo.debut | date: '%Y-%m-%d' }}"
+     data-fin="{{ expo.fin | date: '%Y-%m-%d' }}">
+    <span class="artiste">{{ expo.artiste }}</span>
+    <em class="titre">{{ expo.titre }}</em>
+    <span class="dates">{% include dates.html debut=expo.debut fin=expo.fin %}</span>
+  </a>
+  {% endfor %}
+</div>
+
+<script src="{{ '/assets/tri.js' | relative_url }}"></script>
