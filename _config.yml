@@ -1,8 +1,9 @@
 # ─────────────────────────────────────────────
 #  Réglages du site — modifie les valeurs entre guillemets
 # ─────────────────────────────────────────────
-title: "Nom de la galerie"
-description: "Espace d'exposition temporaire"
+logo: "/images/logo.jpg"
+title: "Opéra pipo"
+description: ""
 adresse: "12 rue de l'Exemple, 75011 Paris"
 email: "contact@exemple.com"
 instagram: "nomdelagalerie"        # sans le @
