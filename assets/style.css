@@ -36,7 +36,7 @@ a:focus-visible { outline: 1px solid var(--texte); outline-offset: 4px; }
   background: transparent;
   /* background: var(--fond); */
   padding: 1.2rem 1rem;
-  margin-bottom: 1.6rem;
+  margin-bottom: 1.2rem;
   pointer-events: none; 
 }
 .nom {
