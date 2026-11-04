@@ -28,3 +28,4 @@ defaults:
       layout: expo
 mois: [janvier, février, mars, avril, mai, juin, juillet, août, septembre, octobre, novembre, décembre]
 exclude: [README.md, GUIDE.md]
+future: true
