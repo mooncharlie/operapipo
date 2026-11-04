@@ -12,7 +12,7 @@ instagram: "opera__pipo"        # sans le @
 # Si le site est à l'adresse https://pseudo.github.io/nom-du-depot/
 # mets baseurl: "/nom-du-depot". Sinon (nom de domaine perso ou
 # dépôt pseudo.github.io), laisse vide.
-baseurl: "/operapipo"
+baseurl: ""
 
 # ── Ne pas toucher en dessous ────────────────
 lang: fr
