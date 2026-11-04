@@ -6,9 +6,9 @@ fin: 2026-12-04
 images:
   - /images/image expo.jpg
 ---
-**WHAT YOU SEE**
+WHAT YOU SEE
 
-**Part One.** The streets are beginning to empty. No one can know whether this is linked to recent events, or to a more discreet upheaval taking place within people's homes. A secret rumour beginning to grow in volume and breadth. We wouldn't say that everyone is talking about nothing but this; and yet, it is a kind of white noise that registers, clears a wide field, passes over the pavements and through certain shop windows.
+Part One. The streets are beginning to empty. No one can know whether this is linked to recent events, or to a more discreet upheaval taking place within people's homes. A secret rumour beginning to grow in volume and breadth. We wouldn't say that everyone is talking about nothing but this; and yet, it is a kind of white noise that registers, clears a wide field, passes over the pavements and through certain shop windows.
 
 Perhaps it began in Saint-Gilles, one early evening, whilst leafing through artists' books and other rare publications laid out on the coffee table in a living room. In search of a legendary artist (let's avoid gossip, though), who is said to have sent his Parisian gallery packing because it had become too cool. That and other things.
 
