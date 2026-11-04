@@ -4,13 +4,13 @@
   --texte: #000000;
   --discret: #6b6b6b;
   --survol: #0033ff;          /* couleur des liens au survol */
-  --police: "Times New Roman", Times, "Liberation Serif", serif;
+  --police: "Libre Baskerville", Baskerville, "Times New Roman", serif;
 }
 
 * { box-sizing: border-box; }
 [hidden] { display: none !important; }
 
-html { font-size: 17px; }
+html { font-size: 14px; }
 
 body {
   margin: 0;
@@ -50,7 +50,7 @@ a:focus-visible { outline: 1px solid var(--texte); outline-offset: 4px; }
 /* Logo : hauteur réglable ici (JPG, PNG ou SVG) */
 .logo {
   display: block;
-  height: 7rem;
+  height: 5rem;
   width: auto;
   max-width: 80vw;
   object-fit: contain;
@@ -113,5 +113,5 @@ main {
 @media (max-width: 480px) {
   html { font-size: 17px; }
   .nom { font-size: 2.1rem; }
-  .logo { height: 5rem; }
+  .logo { height: 4rem; }
 }
