@@ -33,24 +33,28 @@ a:focus-visible { outline: 1px solid var(--texte); outline-offset: 4px; }
   position: sticky;
   top: 0;
   z-index: 10;
-  background: var(--fond);
+  background: transparent;
+  /* background: var(--fond); */
   padding: 1.2rem 1rem;
   margin-bottom: 1.6rem;
+  pointer-events: none; 
 }
 .nom {
   display: inline-block;
   font-size: 2.6rem;
   line-height: 1;
   letter-spacing: -0.02em;
+  pointer-events: auto;  
 }
 
 /* Logo : hauteur réglable ici (JPG, PNG ou SVG) */
 .logo {
   display: block;
-  height: 4.5rem;
+  height: 7rem;
   width: auto;
   max-width: 80vw;
   object-fit: contain;
+  mix-blend-mode: difference
 }
 
 main {
@@ -109,5 +113,5 @@ main {
 @media (max-width: 480px) {
   html { font-size: 17px; }
   .nom { font-size: 2.1rem; }
-  .logo { height: 3.5rem; }
+  .logo { height: 5rem; }
 }
