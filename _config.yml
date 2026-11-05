@@ -26,7 +26,7 @@ defaults:
       type: expos
     values:
       layout: expo
-    - scope:
+  - scope:
       path: "about.md"
     values:
       layout: page
