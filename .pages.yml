@@ -36,10 +36,10 @@ content:
         label: Texte de présentation
         type: rich-text
       - name: a-propos
-  - name: a-propos
-    label: À propos
+  - name: about
+    label: Anout
     type: file
-    path: a-propos.md
+    path: about.md
     fields:
       - name: title
         label: Titre
