@@ -6,7 +6,7 @@ fin: 2026-12-04
 images:
   - /images/image expo.jpg
 ---
-WHAT YOU SEE
+What you see
 
 Part One. The streets are beginning to empty. No one can know whether this is linked to recent events, or to a more discreet upheaval taking place within people's homes. A secret rumour beginning to grow in volume and breadth. We wouldn't say that everyone is talking about nothing but this; and yet, it is a kind of white noise that registers, clears a wide field, passes over the pavements and through certain shop windows.
 
