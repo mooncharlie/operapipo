@@ -35,3 +35,15 @@ content:
       - name: body
         label: Texte de présentation
         type: rich-text
+      - name: a-propos
+  - name: a-propos
+    label: À propos
+    type: file
+    path: a-propos.md
+    fields:
+      - name: title
+        label: Titre
+        type: string
+      - name: body
+        label: Texte
+        type: rich-text
