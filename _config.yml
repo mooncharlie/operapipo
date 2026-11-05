@@ -30,6 +30,7 @@ defaults:
       path: "a-propos.md"
     values:
       layout: page
-      permalink: /a-propos/mois: [janvier, février, mars, avril, mai, juin, juillet, août, septembre, octobre, novembre, décembre]
+      permalink: /a-propos/
+mois: [janvier, février, mars, avril, mai, juin, juillet, août, septembre, octobre, novembre, décembre]
 exclude: [README.md, GUIDE.md]
 future: true
