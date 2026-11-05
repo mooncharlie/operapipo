@@ -37,7 +37,7 @@ content:
         type: rich-text
       - name: a-propos
   - name: about
-    label: Anout
+    label: About
     type: file
     path: about.md
     fields:
