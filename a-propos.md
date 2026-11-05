@@ -1,8 +1,5 @@
 ---
-title: Opéra Pipo
 ---
----
-
 Opéra Pipo is an aesthetic project taking shape in Nice. We aim to create a space for gathering, living and exchange. This name encompasses an open category through which a large number of people can interact and a wide range of activities can take place through a form of play.
 
 This ‘game’ reconsiders ideas surrounding the aesthetic proposition, production, value, interest, storytelling, and the necessity of doing, of being or not being, of being absent or present within the art world.
