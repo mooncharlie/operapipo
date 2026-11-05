@@ -7,7 +7,7 @@ description: ""
 adresse: "83 avenue Alfred Borriglione, Nice, France 06100"
 email: "operapipo@gmail.com"
 instagram: "opera__pipo"        # sans le @
-horaires: "Ouvert sur rendez-vous"
+horaires: "Open by appointment"
 
 # Si le site est à l'adresse https://pseudo.github.io/nom-du-depot/
 # mets baseurl: "/nom-du-depot". Sinon (nom de domaine perso ou
@@ -15,7 +15,7 @@ horaires: "Ouvert sur rendez-vous"
 baseurl: ""
 
 # ── Ne pas toucher en dessous ────────────────
-lang: fr
+lang: en
 collections:
   expos:
     output: true
@@ -26,11 +26,11 @@ defaults:
       type: expos
     values:
       layout: expo
-  - scope:
-      path: "a-propos.md"
+    - scope:
+      path: "about.md"
     values:
       layout: page
-      permalink: /a-propos/
-mois: [janvier, février, mars, avril, mai, juin, juillet, août, septembre, octobre, novembre, décembre]
+      permalink: /about/
+mois: [January, February, March, April, May, June, July, August, September, October, November, December]
 exclude: [README.md, GUIDE.md]
 future: true
