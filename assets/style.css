@@ -89,6 +89,7 @@ main {
   display: flex;
   flex-direction: column;
 }
+.fiche .artiste { font-size: 1.4rem; }
 .fiche .dates { margin: .5rem 0 2rem; }
 .texte { text-align: left; max-width: 34rem; margin: 0 auto; }
 .texte p { margin: 0 0 1em; }
