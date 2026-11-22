@@ -1,6 +1,6 @@
 ---
 artiste: Maxime Le Bon
-titre: What you see
+titre: What You See
 debut: 2026-11-06
 fin: 2026-12-04
 images:
